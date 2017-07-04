@@ -1,0 +1,20 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main > section{
+    flex: 0 0 48%;
+}
+.settings{
+    order: 0;
+}
+.rates{
+    order: 1;
+}
+.symbols{
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 48%;
+}
